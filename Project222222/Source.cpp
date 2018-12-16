@@ -6,7 +6,7 @@ int main()
 	int y;
 	int arr[100];
 	int n;
-	cout << "Enter the number /2   :" << endl;
+	cout << "Enter the number array shared  /2 !!!  :" << endl;
 	do
 	{
 		cout << "Enter numbers  ";
@@ -16,6 +16,7 @@ int main()
 
 	for (int  i = 0; i < n; i++)
 	{
+		cout << "enter the number in array :" << endl;
 		cin >> arr[i];
 	}
 	for (int  i = 0; i < n; i++)
@@ -27,7 +28,7 @@ int main()
 	}
 	   
 	for (int  i = 0; i < n; i++)
-	{
+	{   
 		cout << arr[i];
 	}
 	system("pause");
